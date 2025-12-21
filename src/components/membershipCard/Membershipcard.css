@@ -1,0 +1,103 @@
+/* 容器居中 */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f7ff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* 卡片主體 */
+.membership-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 340px;
+  padding: 45px 30px;
+  border-radius: 25px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-family: Arial, sans-serif; /* 確保無依賴字體 */
+}
+
+/* 標題：強調粗體與間距 */
+.card-title {
+  font-size: 34px;
+  font-weight: 900;
+  color: #333333;
+  margin: 0 0 35px 0;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+}
+
+/* 月費區 */
+.monthly-section {
+  margin-bottom: 20px;
+}
+
+.main-price {
+  font-size: 48px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.price-label {
+  font-size: 20px;
+  font-weight: 800;
+  color: #333333;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+/* 年費區與純 CSS 鑽石 */
+.yearly-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 35px;
+}
+
+.css-diamond {
+  width: 22px;
+  height: 18px;
+  background-color: #5c9aff;
+  /* 使用 clip-path 勾勒鑽石形狀 */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 50% 100%, 0% 40%);
+}
+
+.yearly-text {
+  font-size: 26px;
+  font-weight: 500;
+  color: #444444;
+}
+
+/* 按鈕樣式 */
+.buy-now-btn {
+  background-color: #4285f4;
+  color: white;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 0;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+  margin-bottom: 40px;
+}
+
+.buy-now-btn:active {
+  transform: scale(0.98);
+  background-color: #3574e0;
+}
+
+/* 底部描述 */
+.card-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666666;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.8px;
+}
