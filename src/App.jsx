@@ -70,7 +70,7 @@ function App() {
 
       <footer className="contact">
         <div>Email: <a href="mailto:info@quantstrategyllc.com">info@quantstrategyllc.com</a></div>
-        <div>Discord: <a href="#">Join our community</a></div>
+        <div>Discord: <a href="#">https://discord.gg/6AkG9y98EM</a></div>
       </footer>
     </div>
   );
